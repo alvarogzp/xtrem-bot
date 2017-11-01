@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from bot.manager import BotManager
+from xtrem.manager import BotManager
 
 if __name__ == "__main__":
     bot_manager = BotManager()
