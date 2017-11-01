@@ -1,4 +1,3 @@
-from bot import project_info
 from bot.action.core.action import ActionGroup
 from bot.action.core.command import CommandAction
 from bot.action.core.filter import MessageAction, TextMessageAction, NoPendingAction, EditedMessageAction, \
@@ -29,6 +28,8 @@ from bot.action.standard.silence import SilenceAction
 from bot.action.standard.toggle import GetSetFeatureAction, ToggleableFeatureAction
 from bot.action.standard.userinfo import SaveUserAction
 from bot.bot import Bot
+
+from xtrem import project_info
 
 
 class BotManager:
