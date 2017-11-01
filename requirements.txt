@@ -1,0 +1,3 @@
+-e .
+
+-e git+https://github.com/alvarogzp/telegram-bot-framework.git@v03.00.00#egg=telegram-bot-framework
