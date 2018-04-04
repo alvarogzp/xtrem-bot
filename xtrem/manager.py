@@ -21,6 +21,7 @@ from bot.action.standard.chatsettings.action import ChatSettingsAction
 from bot.action.standard.enterexit import GreetAction, LeaveAction
 from bot.action.standard.gapdetector import GlobalGapDetectorAction
 from bot.action.standard.group_admin import GroupAdminAction
+from bot.action.standard.info.action import ChatInfoAction, UserInfoAction
 from bot.action.standard.internationalization import InternationalizationAction
 from bot.action.standard.logger import LoggerAction
 from bot.action.standard.perchat import PerChatAction
@@ -117,6 +118,18 @@ class BotManager:
 
                                             CommandAction("ping").then(
                                                 AnswerAction("Up and running, sir!")
+                                            ),
+
+                                            CommandAction("me", is_personal=True).then(
+                                                UserInfoAction(always_sender=True)
+                                            ),
+
+                                            CommandAction("user", is_personal=True).then(
+                                                UserInfoAction()
+                                            ),
+
+                                            CommandAction("chat").then(
+                                                ChatInfoAction()
                                             ),
 
                                             # ADMIN ACTIONS #
