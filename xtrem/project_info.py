@@ -4,7 +4,7 @@ name = 'xtrem-bot'
 
 description = 'XtremBot Python Telegram bot'
 
-source_url = 'https://github.com/alvarogzp/xtrem-bot'
+url = 'https://github.com/alvarogzp/xtrem-bot'
 
 author_name = 'Alvaro Gutierrez Perez'
 author_email = 'alvarogzp@gmail.com'
