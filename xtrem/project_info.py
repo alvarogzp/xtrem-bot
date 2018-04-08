@@ -8,6 +8,10 @@ url = 'https://github.com/alvarogzp/xtrem-bot'
 
 author_name = 'Alvaro Gutierrez Perez'
 author_email = 'alvarogzp@gmail.com'
-author_handle = "@AlvaroGP"
+
+authors_credits = (
+    ("@AlvaroGP", "main developer"),
+    ("@KouteiCheke", "i18n & UI/UX support")
+)
 
 license_name = 'GNU AGPL 3.0'
