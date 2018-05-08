@@ -123,7 +123,7 @@ class BotManager:
                                                 ),
 
                                                 CommandAction("ping").then(
-                                                    AnswerAction("Up and running, sir!")
+                                                    AnswerAction("Up and running!")
                                                 ),
 
                                                 CommandAction("me", is_personal=True).then(
